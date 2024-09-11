@@ -9,15 +9,15 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://docs.openremote.io',
+  url: 'https://docusaurus.maindrain.net',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'openremote', // Usually your GitHub org/user name.
-  projectName: 'documentation', // Usually your repo name.
+  organizationName: 'wborn', // Usually your GitHub org/user name.
+  projectName: 'docusaurus.maindrain.net', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -39,7 +39,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/openremote/documentation/edit/main/',
+            'https://github.com/wborn/docusaurus.maindrain.net/edit/main/',
           docItemComponent: "@theme/ApiItem", // Derived from docusaurus-theme-openapi
         },
         blog: {
@@ -47,17 +47,13 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/openremote/documentation/edit/main/',
+            'https://github.com/wborn/docusaurus.maindrain.net/edit/main/',
         },
         theme: {
           customCss: [
             './src/css/styles.css',
             './src/css/openapi-docs.css',
           ]
-        },
-        gtag: {
-          trackingID: "GTM-MWP6C7F",
-          anonymizeIP: false,
         },
       } satisfies Preset.Options,
     ],
