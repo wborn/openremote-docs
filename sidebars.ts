@@ -93,6 +93,12 @@ const sidebars: SidebarsConfig = {
       label: 'JavaDoc',
       href: 'https://www.javadoc.io/doc/io.openremote',
     },
+    'ui-components',
+    {
+      type: 'link',
+      label: 'UI Components (link)',
+      href: 'https://docusaurus.maindrain.net/sb/',
+    },
  ],
 };
 
